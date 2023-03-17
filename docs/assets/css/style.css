@@ -4,11 +4,11 @@
 
 /* brand color palette */
 :root {
-  --primary: rgba(68, 88, 119, 1);
-  --secondary: rgba(146, 204, 206, 1);
-  --tertiary: rgba(49, 52, 61, 1);
-  --dark: rgba(28, 29, 33, 1);
-  --light: rgba(238, 238, 247, 1);
+  --primary: black;
+  --secondary: #4EA9D1;
+  --tertiary: #F76531;
+  --dark: #EFD900;
+  --light: white;
 }
 
 body {
@@ -88,7 +88,7 @@ main {
 
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/brightcove-hero-background.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -237,7 +237,7 @@ main {
 }
 
 .surf-report {
-  background-image: url("../images/02-portfolio-4.jpg");
+  background-image: url("../images/bc_logo_black_4x.png");
 }
 
 /* end portfolio project images */
