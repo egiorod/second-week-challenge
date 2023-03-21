@@ -90,7 +90,7 @@ main {
 }
 
 .hero-banner {
-  background:rgba(0, 0, 0, 0.2);
+  background:rgba(0, 0, 0, 0.02);
   background-image: url("../images/BC_LI_EmployeeProfileBG_2023_V1.png"), linear-gradient(180deg, var(--sec4) 0%, var(--prime2) 100%);
   background-size: cover;
   background-position: center;
@@ -224,23 +224,38 @@ main {
 
 /* portfolio project images */
 .run-buddy {
-  background-image: url("../images/02-run-buddy.jpg");
+  background-image: url("../images/bc_logo_black_4x.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .led-wall {
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/bc_logo_black_4x.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .react-calc {
-  background-image: url("../images/02-portfolio-2.jpg");
+  background-image: url("../images/bc_logo_black_4x.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .pastel-puzzles {
-  background-image: url("../images/02-portfolio-3.jpg");
+  background-image: url("../images/bc_logo_black_4x.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .surf-report {
-  background-image: url("../images/bc_logo_black_4x.png");
+background-image: url("../images/bc_logo_black_4x.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* end portfolio project images */
